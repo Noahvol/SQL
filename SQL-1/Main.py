@@ -13,7 +13,7 @@ def funccreatedatabase():
         epost str,
         tlf int,
         postnummer int,
-        priamry key (epost)
+        primary key (epost)
                 )''')
 
 def funcInsertData():
@@ -29,7 +29,7 @@ def funcInsertData():
 
 
 def main():
-    funccreate_database()
+    funccreatedatabase()
     funcInsertData()
 
 
